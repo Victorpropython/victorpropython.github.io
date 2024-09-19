@@ -1,54 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width-device-width, initial-scale=1.0">
-        <title>TeenZee - Signup</title>
-        <link rel="stylesheet" href="style.css">
-        <!-- Add icon library -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
-    <body>
-        <!-- Header -->
-        <header>
-            <img class="h-logo" src="teenzee-logo.webp" alt="">
-            <h1>Signup on TeenZee</h1>
-            <p>Are you here as a Mentor or as a Student, we are all here to help</p>
-        </header>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>TeenZee - Navigating Teenage Life</title>
+    <link rel="stylesheet" href="style/style.css">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+
+<body>
+
+
+    <!-- Header section -->
+    <header>
+        
+        <a href="home.html"><img class="h-logo" src="pictures/teenzee-logo.webp" alt=""></a>
+        <h1>Welcome to TeenZee</h1>
+        <p><b>Your guide to navigating life as a teenager</b></p>
+
+    </header>
+    <main>
+        <!-- Navigation Bar -->
         <nav>
-            <a href="home.html">Home</a>
-            <a href="resources.html">Resources</a>
-            <a href="contact.html">Contact</a>
+            <a href="login.html">Register</a>
             <a href="about.html">About Us</a>
-            <a href="login.html"> Signin / Signup</a>
+            <a href="contact.html">Contact</a>
+            <a href="resources.html">Resources</a>
+            <a href="home.html"> Home</a>
         </nav>
-        <div class="signup-container">
-            <h2>Signup</h2>
-            <form id="signup-form" action="signup.php" method="POST">
-                <div class="form-group">
-                    <label for="username">Username</label>
-                    <input type="text" id="username" name="username" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="text" id="email" name="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="password">Password</label>
-                    <input type="text" id="password" name="password" required>
-                </div>
-                <div class="form-group">
-                    <label for="role">Select Role</label>
-                    <select name="role" id="role">
-                        <option value="student">Student</option>
-                        <option value="mentor">Mentor</option>
-                    </select>
-                </div>
-                <button type="submit">Signup</button>
-            </form>
-            <div class="signup-link">
-                <p>Already have an account? <a href="login.html">Sign here</a></p>
-            </div>
+<!-- Login Section -->
+    <div class="bbody">
+        <div class="login-container">
+            <div class="form-box">
+                <form id="login-form" action="/php/connect.php" method="POST" name="Formfill">
+                    <h2>Login</h2>
+                    <div class="input-box">
+                        <input type="text" name="Username" placeholder="Username">
+                    </div>
+                    <div class="input-box">
+                        <input type="text" name="Email" placeholder="Email">
+                    </div>
+                    <div class="input-box">
+                        <input type="text" name="Password" placeholder="Passsword">
+                    </div>
+                    <div class="input-box">
+                        <input type="text" name="confirm password" placeholder="confirm password" >
+                    </div>
+                    <div class="input-box">
+                        <select id="role" name="role" type="text" placeholder="Role"> 
+                            <option value="Role" ></option>   
+                            <option value="student">Student</option>
+                            <option value="mentor">Mentor</option>
+                        </select>                      
+                    </div>
+                    <div class="btn">
+                        <input type="submit" value="Signup">
+                    </div>
+                    <div class="group">
+                        <span><a href="#">Forgot Passsword</a></span>
+                        <span><p>Already have an account? <br> <a href="login.html">Sign here</a></p></span>
+
+                    </div>
+                </form>
+            
         </div>
-    </body>
+    </div>
+    <div></div>
+    <div class="space"></div>
+    <footer>
+        <p>Follow us on social media:</p>
+        <ul>
+            <li><a href="https://www.facebook.com/victor chibuike" target="_blank">Facebook</a></li>
+            <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+            <li><a href="https://www.twitter.com/viktor chibuike" target="_blank">X (Twitter)</a></li>
+            <li><a href="mailto:support@teenzee.com">Email Us</a></li>
+        </ul>
+        <p>&copy; 2024 TeenZee. All rights reserved.</p>
+    </footer>
+
+
+</body>
 </html>
+                

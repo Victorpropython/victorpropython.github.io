@@ -1,47 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+
+<head>==$0
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TeenZee - Contact</title>
-    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TeenZee - Navigating Teenage Life</title>
+    <link rel="stylesheet" href="style/style.css">
     <!-- Add icon library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
+
 <body>
-    <!-- Header -->
+
+
+    <!-- Header section -->
     <header>
-        <img class="h-logo" src="teenzee-logo.webp" alt="">
-        <h1>Contact Us</h1>
-        <p>We are here to help. Reach out to us anytime!</p>
+
+        <a href="home.html"><img class="h-logo" src="pictures/teenzee-logo.webp" alt=""></a>
+        <h1>Welcome to TeenZee</h1>
+        <p><b>Your guide to navigating life as a teenager</b></p>
+
     </header>
+    <main>
+        <!-- Navigation Bar -->
+        <nav>
+            <a href="login.html">Register</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+            <a href="resources.html">Resources</a>
+            <a href="home.html"> Home</a>
+        </nav>
 
-    <!-- Navigation -->
-    <nav>
-        <a href="home.html">Home</a>
-        <a href="resources.html">Resources</a>
-        <a href="contact.html">Contact</a>
-        <a href="about.html">About Us</a>
-        
-    </nav>
+        <!-- Main Content -->
+        <section class="contact-page">
+            <h2><b>Contact Us | TeenZee</b></h2>
+            <p>Welcome to TeenZee's Contact Page! We are here to support and guide teenagers through their journey of
+                growth, learning, and opportunity in tech. Whether you're looking for advice, career guidance, or have
+                questions about our platform, we’re just a message away.</p>
+        </section>
+        <section class="contact-info">
+            <h2>Contact Information</h2>
+            <ul>
+                <li>
+                    <ol><b>Email Us:</b></ol>
+                </li>
+                Reach out to us anytime at (contact@teenzee.com) or (victorchibuzor@gmail.com) for general inquiries,
+                collaboration opportunities,
+                or any questions you may have
+                <li>
+                    <ol><b>Call us:</b></ol>
+                </li>
+                Our support team is available from Monday to Friday, 9:00 AM - 5:00 PM.
+                Phone: +234 (9024088860).
+                <li>
+                    <ol><b>Visit Us:</b></ol>
+                    <ul>
+                        <li>TeenZee Office,</li>
+                        <li>Km 2 Ayetoro-Iloro, Road.</li>
+                        <li>Ekiti, Ekiti State, Nigeria</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <div class="contact-social">
+            <b>Social Media</b><br>
+            Follow us and stay updated on our latest tech tutorials, remote gigs, and motivational resources:
+            <ul>
 
-    <!-- Main Content -->
-    <section>
-        <h2>Contact Information</h2>
-        <p>Email: support@teenzee.com</p>
-        <p>Phone: +23409024088860</p>
-    </section>
+                <li><a href="https://www.facebook.com/victor chibuike" target="_blank">Facebook:</a></li>
+                <li><a href="https://www.instagram.com" target="_blank">Instagram:</a></li>
+                <li><a href="https://www.twitter.com/viktor chibuike" target="_blank">Twitter or X</a></li>
+            </ul>
+        </div>
 
-    <!-- Footer -->
-    <footer>
-        <p>Follow us on social media:</p>
-        <ul>
-            <li><a href="https://www.facebook.com/victor chibuike" target="_blank">Facebook</a></li>
-            <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
-            <li><a href="https://www.twitter.com/viktor chibuike" target="_blank">X (Twitter)</a></li>
-            <li><a href="mailto:support@teenzee.com">Email Us</a></li>
-        </ul>
-    </footer>
+        <div class="contact-msg">
+            <b>Send Us a Message</b><br>
+            If you have a question, suggestion, or just want to say hi, fill out the form below,
+            and we'll get back to you within 24-48 hours!
+            <form action="submit_form.php" method="POST">
+                <label for="name" placeholder="Name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="email" placeholder="Email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="8" cols="80" required></textarea><br><br>
+
+                <input type="submit" value="Send Message">
+            </form>
+        </div>
+        <div class="space"></div>
+
+        <!-- Footer -->
+        <footer>
+            <p>Follow us on social media:</p>
+            <ul>
+                <li><a href="https://www.facebook.com/victor chibuike" target="_blank">Facebook</a></li>
+                <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+                <li><a href="https://www.twitter.com/viktor chibuike" target="_blank">X (Twitter)</a></li>
+                <li><a href="mailto:support@teenzee.com">Email Us</a></li>
+            </ul>
+        </footer>
+        <!--Footer-->
+        <footer>
+            <p>Follow us on social media:</p>
+            <ul>
+                <li><a href="https://www.facebook.com/victor chibuike" target="_blank">Facebook</a></li>
+                <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+                <li><a href="https://www.twitter.com/viktor chibuike" target="_blank">X (Twitter)</a></li>
+                <li><a href="mailto:support@teenzee.com">Email Us</a></li>
+            </ul>
+            <p>&copy; 2024 TeenZee. All rights reserved.</p>
+        </footer>
 </body>
-</html>
 
+</html>
